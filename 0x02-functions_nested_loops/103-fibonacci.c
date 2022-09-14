@@ -1,6 +1,4 @@
-(21 sloc)  389 Bytes
 #include <stdio.h>
-
 /**
  * main - Entry point
  * Return: Always 0 (Success)
