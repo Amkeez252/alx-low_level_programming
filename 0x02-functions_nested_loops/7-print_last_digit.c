@@ -4,7 +4,7 @@
  * print_last_digit - Check main
  * @n: The number in question.
  * Description: This function prints the last digit of a number
- * Return: last digit of number r
+ * Return: last digit of number n
 */
 
 int print_last_digit(int r)
