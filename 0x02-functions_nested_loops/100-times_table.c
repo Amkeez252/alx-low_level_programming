@@ -1,9 +1,10 @@
 #include "main.h"
- /**
-  * print_times_table - prints times table for numbers from 0-14
-  * @n: An input integer value
-  * Return: Nothing
- */
+
+/**
+ * print_times_table - prints times table for numbers from 0-14
+ * @n: An input integer value
+ * Return: Nothing
+*/
 
 void print_times_table(int n)
 {
@@ -20,13 +21,11 @@ void print_times_table(int n)
 		}
 	}
 }
-
 /**
  * putformat - formatted characters to output
  * @n: number to format
  * Return: nothing
 */
-
 void putformat(int n)
 {
 	if (n <= 9)
@@ -42,8 +41,8 @@ void putformat(int n)
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
-		putchar(n / 10 + '0');
-		putchar(n % 10 + '0');
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
 	}
 	else
 	{
