@@ -41,6 +41,14 @@ int mul(int a, int b);
 void print_numbers(void);
 
 /**
+ * print_line - prints an underscore n times
+ * @n: number of times printed
+ * Return: void
+ */
+
+void print_line(int n)
+
+/**
  * print_most_numbers - print from 0 to 9 except 2 and 4
  */
 
