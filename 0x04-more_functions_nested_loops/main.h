@@ -62,13 +62,6 @@ void print_most_numbers(void);
 void more_numbers(void);
 
 /**
- * print_line - draws a line
- * @n: The length of the line
- */
-
-void print_diagonal(int n);
-
-/**
  * print_square - prints a square followed by a new line
  * @size: size of the square
  */
