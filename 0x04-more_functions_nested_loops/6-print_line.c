@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * print_line - prints an underscore n times
- * @n: number of times printed
+ * print_line - print a straight line
  *
- * Return: void
+ * @n: is the number of times the _ character
+ *     should be printed
  */
-
 void print_line(int n)
 {
 	int i;
