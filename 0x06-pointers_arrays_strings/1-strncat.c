@@ -13,8 +13,13 @@ char *_strncat(char *dest, char *src, int n)
 	char *temp = dest, *start = src;
 
 	while (*src)
-		dest++;
+	{
+		srclen++;
+		src++;
+	}
 
+	while (*dest)
+		dest++;
 	if (n > srclen)
 		n = srclen;
 
