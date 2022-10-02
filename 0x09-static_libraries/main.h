@@ -1,16 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-/**
- * File: main.h
- * Auth: Amkeez252
- * Desc: Header file containing the prototypes of all functions
- *       included in the static library libholberton.a.
- */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
-int _abs(int n);
+sasSaa _abs(int n);
 int _isupper(int c);
 int _isdigit(int c);
 int _strlen(char *s);
@@ -27,5 +20,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
 #endif
+
