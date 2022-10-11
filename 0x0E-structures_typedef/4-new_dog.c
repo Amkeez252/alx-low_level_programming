@@ -49,7 +49,7 @@ char *_strcopy(char *dest, char *src)
  *
  * Return: The new struct dog.
  */
-wdog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggo;
 
@@ -81,3 +81,4 @@ wdog_t *new_dog(char *name, float age, char *owner)
 
 	return (doggo);
 }
+
