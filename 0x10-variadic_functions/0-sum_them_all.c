@@ -3,24 +3,22 @@
 #include <stdio.h>
 
 /**
- * sum_them_all - A function that sums all its parameters.
- * @n: number of parameters
- * @...: Other parameters
- * Return: The of all parameters
- */
+ * sum_them_all - Sum of all the parameters.
+ * @n: Count of parameters.
+ * Return: integer.
+ **/
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list ap;
+	int result = 0;
+	va_list args;
 	unsigned int i = 0;
-	int sum = 0;
 
 	if (n == 0)
 		return (0);
-
-	va_start(ap, n);
+	va_start(args, n);
 	for (; i < n; i++)
-		sum += va_arg(ap, int);
+		result += va_arg(args, int);
 
-	va_end(ap);
-	return (sum);
+	va_end(args);
+	return (result);
 }
