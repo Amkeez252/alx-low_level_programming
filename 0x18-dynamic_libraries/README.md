@@ -21,7 +21,8 @@ What you should learn from this project:
 You must make Position Independent object Code, and dynamic libraries end with .so:
 
 ```
-gcc -fPIC *.c -shared -o libdynamic.so
+gcc -fPIC -c *.c
+gcc -shared -o liball.so *.o
 ```
 There are a couple relevant flags to note:
 
